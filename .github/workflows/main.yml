@@ -14,6 +14,6 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync ./ s3://mywebspaceatyale.yalepages.org --delete --exclude ".git*"
+      run: aws s3 sync ./ s3://zoomunetwork.yalepages.org --delete --exclude ".git*"
     - name: Flush Distribution Cache
       run: aws cloudfront create-invalidation --distribution-id ${{ secrets.DISTRIBUTION_ID }} --paths '/*'
