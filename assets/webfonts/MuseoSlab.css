@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Museo Slab 100';
+    src: url('MuseoSlab-100.woff2') format('woff2'),
+        url('MuseoSlab-100.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Slab 100';
+    src: url('MuseoSlab-100Italic.woff2') format('woff2'),
+        url('MuseoSlab-100Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Slab 300';
+    src: url('MuseoSlab-300Italic.woff2') format('woff2'),
+        url('MuseoSlab-300Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Slab 300';
+    src: url('MuseoSlab-300.woff2') format('woff2'),
+        url('MuseoSlab-300.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Slab 700';
+    src: url('MuseoSlab-700.woff2') format('woff2'),
+        url('MuseoSlab-700.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Slab 700';
+    src: url('MuseoSlab-700Italic.woff2') format('woff2'),
+        url('MuseoSlab-700Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Slab 500';
+    src: url('MuseoSlab-500Italic.woff2') format('woff2'),
+        url('MuseoSlab-500Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Slab 500';
+    src: url('MuseoSlab-500.woff2') format('woff2'),
+        url('MuseoSlab-500.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Slab 900';
+    src: url('MuseoSlab-900.woff2') format('woff2'),
+        url('MuseoSlab-900.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Slab 900';
+    src: url('MuseoSlab-900Italic.woff2') format('woff2'),
+        url('MuseoSlab-900Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Slab 1000';
+    src: url('MuseoSlab-1000Italic.woff2') format('woff2'),
+        url('MuseoSlab-1000Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Slab 1000';
+    src: url('MuseoSlab-1000.woff2') format('woff2'),
+        url('MuseoSlab-1000.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
