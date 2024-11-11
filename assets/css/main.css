@@ -1,8 +1,11 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
-@import url("../webfonts/MuseoSlab.css");
-@import url("../webfonts/OpificioNeue.css");
+@import url("../webfonts/MuseoSlab.css");  /* body copy */
+@import url("../webfonts/OpificioNeue.css"); /* old title - not used */
+
+@import url("../webfonts/AeroMatics.css"); /* title */
+@import url("../webfonts/TepenoSans.css"); /* subtitle */
 
 /* Color palette
 	by Andy
@@ -312,7 +315,7 @@ input, select, textarea {
 		/* color: #ffffff; */
 		color: #2e3141;
 		/* font-family: Raleway, Helvetica, sans-serif; */
-		font-family: "Opificio Neue", Helvetica, sans-serif;
+		font-family: "Tepeno Sans", Helvetica, sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.05em;
 		margin: 0 0 1em 0;
@@ -2234,7 +2237,7 @@ input, select, textarea {
 		color: #2e3141;
 		display: block;
 		/* font-family: Raleway, Helvetica, sans-serif; */
-		font-family: "Opificio Neue", Helvetica, sans-serif;
+		font-family: "Tepeno Sans", Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -2949,9 +2952,9 @@ input, select, textarea {
 		cursor: pointer;
 		display: inline-block;
 		/* font-family: Raleway, Helvetica, sans-serif; */
-		font-family: "Opificio Neue", Helvetica, sans-serif;
+		font-family: "Tepeno Sans", Helvetica, sans-serif;
 		font-size: 0.8em;
-		font-weight: 700;
+		font-weight: 500;
 		height: 3.75em;
 		letter-spacing: 0.1em;
 		line-height: 3.75em;
@@ -3225,7 +3228,10 @@ input, select, textarea {
 
 			#header h1 a {
 				border: 0;
-				font-family: "Opificio Neue", Helvetica, sans-serif;
+				font-family: "Aero Matics", Helvetica, sans-serif;
+				font-weight: 700;
+				font-size: 1.3em;
+				letter-spacing: 0.1rem;
 			}
 
 			#header h1 a:hover, #header h1 a:focus {
@@ -3234,9 +3240,9 @@ input, select, textarea {
 
 		#header nav {
 			/* font-family: Raleway, Helvetica, sans-serif; */
-			font-family: "Opificio Neue", Helvetica, sans-serif;
+			font-family: "Tepeno Sans", Helvetica, sans-serif;
 			font-size: 0.8em;
-			font-weight: 700;
+			font-weight: 500;
 			height: 3em;
 			letter-spacing: 0.1em;
 			line-height: 3em;
@@ -3467,7 +3473,7 @@ input, select, textarea {
 					border: 0;
 					display: block;
 					/* font-family: Raleway, Helvetica, sans-serif; */
-					font-family: "Opificio Neue", Helvetica, sans-serif;
+					font-family: "Tepeno Sans", Helvetica, sans-serif;
 					font-size: 0.8em;
 					font-weight: 200;
 					letter-spacing: 0.1em;
@@ -3541,13 +3547,16 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		padding: 10em 0 4.75em 0 ;
+		/* padding: 10em 0 4.75em 0; */
+		padding: 8em 0 4.75em 0;
 	}
 
 		#banner .inner {
 			/* margin: 0 auto; */
 			margin: 0 auto 0 30%;
-			width: 55em;
+			/* width: 55em; */
+			width: 70%;
+			padding-right: 1em;
 		}
 
 		#banner .logo {
@@ -3623,7 +3632,7 @@ input, select, textarea {
 			filter: blur(0);
 			opacity: 1;
 			/* font-family: Raleway, Helvetica, sans-serif; */
-			font-family: "Opificio Neue", Helvetica, sans-serif;
+			font-family: "Tepeno Sans", Helvetica, sans-serif;
 			font-family: "Museo Slab 500", Helvetica, sans-serif;
 			font-size: 1em;
 			font-weight: 200;
@@ -3633,9 +3642,15 @@ input, select, textarea {
 			/* text-transform: uppercase; */
 			text-transform: none;
 			max-width: 85%;
-			padding: 0 2em 0 2em;
+			padding: 0 2em 0 0;
+			margin-top: 2em;
 		}
 
+		h3.major {
+			font-size: 1.2em;
+			line-height: 1.1em;
+			font-weight: 500;
+		}
 
 		@media screen and (max-width: 1280px) {
 
@@ -3651,46 +3666,88 @@ input, select, textarea {
  center;
 				margin-bottom: -6.5em;
 			}
+			
 
 		}
 
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 12em 3em 12.375em 3em ;
+				/* padding: 12em 3em 12.375em 3em; */
+				padding: 3em 3em 12.375em 3em;
 				margin-bottom: -4.75em;
+				background-position: 20% center;
 			}
 
-				#banner .inner {
-					width: 100%;
-				}
+			#banner .inner {
+				width: 80%;
+				margin-left: 20%;
+			}
+
+			#banner p {
+				width: 100%;
+				max-width: 100%;
+			}
 
 		}
 
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 5em 2em 4.25em 2em ;
+				/* padding: 5em 2em 4.25em 2em; */
+				padding: 3em 2em 4.25em 2em;
 				margin-bottom: -2.5em;
+				background-position: 20% center;
 			}
 
-				#banner .logo {
-					margin: 0 0 1em 0;
-				}
+			#banner .inner {
+				width: 70%;
+				margin-left: 30%;
+			}
 
-					#banner .logo .icon {
-						font-size: 1.5em;
-					}
+			#banner .logo {
+				margin: 0 0 1em 0;
+			}
 
-				#banner h2 {
+				#banner .logo .icon {
 					font-size: 1.5em;
 				}
 
-				#banner p {
-					font-size: 0.8em;
-					padding: 0 4em 0 1em;
-				}
+			#banner h2 {
+				font-size: 1.5em;
+			}
 
+			#banner p {
+				font-size: 0.8em;
+				padding: 0 2em 0 1em;
+			}
+
+			h2.major {
+				font-size: 1.6em;
+			}
+
+			
+
+		}
+
+		@media screen and (max-width: 523px) {
+
+			#banner {
+				background-position: 20% center;
+				padding: 2em 0.25em 4.25em 2em;
+			}
+
+			#banner .inner {
+				width: 80%;
+				margin-left: 20%;
+			} 
+
+			/* #slogan */
+			#banner p {	
+				width: 100%;
+				max-width: 100%;
+				padding: 0;
+			}
 		}
 
 		body.is-preload #banner .logo {
@@ -3746,7 +3803,7 @@ input, select, textarea {
 
 		#wrapper > header p {
 			/* font-family: Raleway, Helvetica, sans-serif; */
-			font-family: "Opificio Neue", Helvetica, sans-serif;
+			font-family: "Tepeno Sans", Helvetica, sans-serif;
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
@@ -3776,10 +3833,8 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 11em 3em 7.375em 3em ;
-			background-size: auto,
- cover;
-			background-position: center,
- 0% 0%;
+			background-size: auto, cover;
+			background-position: center, 0% 0%;
 			margin-bottom: -4.75em;
 		}
 
@@ -4291,8 +4346,14 @@ input, select, textarea {
 	}
 
 	@media screen and (min-width: 981px) and (max-width: 1279px) {
+		
+		#footer {
+			background-position: 30% center;
+		}
+		
 		#footer .inner {
-			margin-left: 20%;
+			margin-left: 30%;
+			width: 70%;
 		}
 	}
 
@@ -4301,13 +4362,16 @@ input, select, textarea {
 		#footer {
 			margin-top: -4.75em;
 			padding-top: 4.75em;
+			background-position: 30% center;
 		}
 
 			#footer .inner {
 				padding: 3em 3em 1em 3em ;
 				display: block;
-				width: 100%;
-				margin-left: auto;
+				/* width: 100%;
+				margin-left: auto; */
+				width: 70%;
+				margin-left: 30%;
 			}
 
 				#footer .inner form {
@@ -4331,10 +4395,13 @@ input, select, textarea {
 		#footer {
 			margin-top: -2.5em;
 			padding-top: 2.5em;
+			background-position: 20% center;
 		}
 
 			#footer .inner {
 				padding: 2em 2em 0.1em 2em ;
+				width: 75%;
+				margin-left: 25%;
 			}
 
 				#footer .inner form {
@@ -4354,6 +4421,15 @@ input, select, textarea {
 			display: block;
 			margin: 1em 0 0 0;
 			padding-left: 0;
+		}
+
+		#footer {
+			background-position: 30% center;
+		}
+
+		#footer .inner {
+			width: 80%;
+			margin-left: 20%;
 		}
 
 			#footer .inner .copyright li:first-child {

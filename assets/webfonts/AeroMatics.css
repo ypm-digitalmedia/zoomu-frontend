@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Aero Matics Display';
+    src: url('AeroMaticsDisplayRegular.woff2') format('woff2'),
+        url('AeroMaticsDisplayRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aero Matics Display';
+    src: url('AeroMaticsDisplayLightItalic.woff2') format('woff2'),
+        url('AeroMaticsDisplayLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aero Matics';
+    src: url('AeroMaticsItalic.woff2') format('woff2'),
+        url('AeroMaticsItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aero Matics Display';
+    src: url('AeroMaticsDisplayBold.woff2') format('woff2'),
+        url('AeroMaticsDisplayBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aero Matics Display';
+    src: url('AeroMaticsDisplayLightRegular.woff2') format('woff2'),
+        url('AeroMaticsDisplayLightRegular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aero Matics';
+    src: url('AeroMaticsRegular.woff2') format('woff2'),
+        url('AeroMaticsRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aero Matics Display';
+    src: url('AeroMaticsDisplayBoldItalic.woff2') format('woff2'),
+        url('AeroMaticsDisplayBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aero Matics Display';
+    src: url('AeroMaticsDisplayItalic.woff2') format('woff2'),
+        url('AeroMaticsDisplayItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aero Matics';
+    src: url('AeroMaticsBold.woff2') format('woff2'),
+        url('AeroMaticsBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aero Matics';
+    src: url('AeroMaticsLightItalic.woff2') format('woff2'),
+        url('AeroMaticsLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aero Matics';
+    src: url('AeroMaticsBoldItalic.woff2') format('woff2'),
+        url('AeroMaticsBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aero Matics';
+    src: url('AeroMaticsLightRegular.woff2') format('woff2'),
+        url('AeroMaticsLightRegular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

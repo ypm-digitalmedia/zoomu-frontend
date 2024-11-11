@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Tepeno Sans';
+    src: url('TepenoSansLightItalic.woff2') format('woff2'),
+        url('TepenoSansLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tepeno Sans';
+    src: url('TepenoSansBoldItalic.woff2') format('woff2'),
+        url('TepenoSansBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tepeno Sans';
+    src: url('TepenoSansItalic.woff2') format('woff2'),
+        url('TepenoSansItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tepeno Sans';
+    src: url('TepenoSansLightRegular.woff2') format('woff2'),
+        url('TepenoSansLightRegular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tepeno Sans';
+    src: url('TepenoSansRegular.woff2') format('woff2'),
+        url('TepenoSansRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tepeno Sans';
+    src: url('TepenoSansBold.woff2') format('woff2'),
+        url('TepenoSansBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
