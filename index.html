@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="assets/js/jquery-ui-1.14.1/jquery-ui.structure.min.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
 		<link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -35,9 +36,10 @@
 						<div class="inner">
 							<h2>Menu</h2>
 							<ul class="links">
+								<li><a href="/">Home</a></li>
 								<li><a href="#overview">Overview</a></li>
 								<li><a href="#projectinfo">Project Information</a></li>
-								<li><a href="#group">Google Group</a></li>
+								<li><a href="#events">Events</a></li>
 								<li><a href="#organizers">Organizers</a></li>
 								<li><a href="#contact">Contact</a></li>
 							</ul>
@@ -62,7 +64,7 @@
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
 									<a name="overview" class="nolink"></a>
-									<a href="https://new.nsf.gov/funding/opportunities/research-coordination-networks" class="image" target="_blank"><img src="images/nsf_logo_trans_256.png" alt="" /></a>
+									<a href="https://new.nsf.gov/funding/opportunities/research-coordination-networks" class="image section-badge-image" target="_blank"><img src="images/nsf_logo_trans_256.png" alt="NSF logo" /></a>
 									<div class="content">
 										<h2 class="major">Overview</h2>
 										<p>The ZooMu Network is funded by an NSF <a href="https://new.nsf.gov/funding/opportunities/research-coordination-networks" title="Research Coordination Networks" target="_blank">Research Coordination Networks</a> Grant (RCN) to build a lasting network of biological collections staff who are equipped to work between collection types, and will open broad new opportunities for biological collections research by linking living and preserved collections, databases, and professionals.</p>
@@ -76,7 +78,7 @@
 							<section id="two" class="wrapper alt spotlight style2">
 								<div class="inner">
 									<a name="projectinfo" class="nolink"></a>
-									<a href="https://academic.oup.com/bioscience/article/72/5/449/6570825" class="image"><img src="images/BioScience_cover_square.jpg" alt="" /></a>
+									<a href="https://academic.oup.com/bioscience/article/72/5/449/6570825" class="image section-badge-image"><img src="images/BioScience_cover_square.jpg" alt="bioscience cover" /></a>
 									<div class="content">
 										<h2 class="major">Project Information</h2>
 										<p>To read more about the project, see our <a href="https://academic.oup.com/bioscience/article/72/5/449/6570825" title="BioScience article" target="_blank">BioScience paper</a>:</p>
@@ -88,12 +90,50 @@
 						<!-- Three -->
 							<section id="three" class="wrapper spotlight style3">
 								<div class="inner">
-									<a name="group" class="nolink"></a>
-									<a href="mailto:zoomu+subscribe@googlegroups.com" class="image"><img src="images/m_biac022fig4_pt1.png" alt="" /></a>
+									<a name="events" class="nolink"></a>
+									<!-- <a name="group" class="nolink"></a> -->
+									<a href="javascript:void(0)" class="image section-badge-image" style="vertical-align:top"><img src="images/calendar_stockphoto_square.jpg" alt="calendar" /></a>
 									<div class="content">
-										<h2 class="major">Google Group</h2>
-										<p>To join our google group, please send an email to: <a href="mailto:zoomu+subscribe@googlegroups.com">zoomu+subscribe@googlegroups.com</a>.</p> 
-										<a href="mailto:zoomu+subscribe@googlegroups.com" class="special">Join group</a>
+										<h2 class="major">Events</h2>
+										<div id="tabsEvents">
+											<ul>
+											  <li><a href="#events-upcoming">Upcoming</a></li>
+											  <li><a href="#events-past">Past</a></li>
+											</ul>
+											<div class="tabs-content">
+												<div id="events-upcoming">
+
+													<ul class="events-list">
+														<li>
+															<a href="https://www.eventbrite.com/e/zoomu-network-rcn-kickoff-tickets-1060256318189?aff=eemailordconf&ref=eemailordconf&utm_campaign=order_payment_confirm&utm_medium=email&utm_source=eventbrite&utm_term=viewevent" title="ZooMu Network RCN Kickoff" target="_blank"><h2>ZooMu Network RCN Kickoff</h2></a>
+															<h3><span class="icon fa-calendar"></span> Monday, December 9 · 3 - 4pm EST</h3>
+															<!-- <p>The Zoo Museum Network project seeks to build a lasting network of biological collections staff who are equipped to work across living collections in zoos and aquariums and preserved biological collections in natural history museums. We aim to open broad new opportunities for biological collections research by linking living and preserved collections, databases, and professionals.</p> -->
+															<p>This is the kickoff meeting for the 5-year ZooMu Network RCN. Please join us for a webinar event to get the next 5 years of ZooMu RCN started.</p>
+															<a href="https://www.eventbrite.com/e/zoomu-network-rcn-kickoff-tickets-1060256318189?aff=eemailordconf&ref=eemailordconf&utm_campaign=order_payment_confirm&utm_medium=email&utm_source=eventbrite&utm_term=viewevent" title="ZooMu Network RCN Kickoff" target="_blank" class="button">Register</a>
+														</li>
+
+													</ul>
+
+												</div>
+												<div id="events-past">
+
+													<ul class="events-list">
+														<li>
+															<a href="https://ssarherps.org/2023/06/symposium-announcement-the-zoomu-initiative/" title="SSAHerps Symposium" target="_blank"><h2>Symposium: The ZooMu Initiative</h2></a>
+															<h3><span class="icon fa-calendar"></span> Friday, July 14, 2023</h3>
+															<p>This symposium was held at JMIH 2023 in Norfolk Virginia, USA and was sponsored by the American Society of Ichthyologists and Herpetologists (ASIH), Herpetologists' League (HL), and the Society for the Study of Amphibians and Reptiles (SSAR) to provide support for presenters to attend JMIH 2023.</p>
+															<a href="https://ssarherps.org/2023/06/symposium-announcement-the-zoomu-initiative/" title="SSAHerps Symposium" target="_blank" class="button">More Info</a>
+														</li>
+														<li>
+															<a href="https://www.idigbio.org/wiki/index.php/Linking_and_Leveraging_Biological_Collections:_Zoos_and_Natural_History_Museums" title="May 2021 Workshop" target="_blank"><h2>Linking and Leveraging Biological Collections: Zoos and Natural History Museums (Workshop)</h2></a>
+															<h3><span class="icon fa-calendar"></span> Monday&ndash;Wednesday, May 3&ndash;5, 2021</h3>
+															<p>Zoos and aquariums hold a wealth of biological resources in their live collections that is unique to these institutions and cannot be simulated with traditional natural history collections in museums. As modern zoos transition from exhibits to conservation organizations, zoos are starting to focus on ways to enhance their contribution to the advancement of biological sciences. In recent years, the Association of Zoos and Aquariums (AZA) has placed increasing emphasis on the need for zoos to invest in scientific advancement through basic and applied research.</p>
+															<a href="https://www.idigbio.org/wiki/index.php/Linking_and_Leveraging_Biological_Collections:_Zoos_and_Natural_History_Museums" title="May 2021 Workshop" target="_blank" class="button">More Info</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										  </div>
 									</div>
 								</div>
 							</section>
@@ -148,10 +188,16 @@
 							<ul class="contact">
 								<li class="icon solid fa-envelope"><a href="mailto:zoomunetwork@gmail.com">ZooMuNetwork@gmail.com</a></li>
 							</ul>
+
+							<div class="content">
+								<!-- <h2 class="major">Google Group</h2> -->
+								<p>To join our <strong>Google group</strong>, please send an email to: <a href="mailto:zoomu+subscribe@googlegroups.com">zoomu+subscribe@googlegroups.com</a>.</p> 
+								<a href="mailto:zoomu+subscribe@googlegroups.com" class="special">Join group</a>
+							</div>
+
+							<p>&nbsp;</p>
 							<p>We are working to update this website and will have more features and information to share in the near future.</p>
-							<p></p>
-							<p></p>
-							<p></p>
+							<p>&nbsp;</p>
 
 							<!-- <form method="post" action="#">
 								<div class="fields">
@@ -184,9 +230,22 @@
 								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
 								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
 							</ul> -->
-							<ul class="copyright">
-								<li>&copy; 2024 Yale Peabody Museum</li>
-							</ul>
+							<div class="copyright">
+								<p class="copyright-text">&copy; 2024 Yale Peabody Museum</p>
+								<a href="https://new.nsf.gov/funding/opportunities/research-coordination-networks" class="footer-image" target="_blank" title="NSF"><img src="images/nsf_logo_trans_256.png" alt="NSF logo" /></a>
+								<a href="https://www.idigbio.org/" class="footer-image" target="_blank" title="iDigBio"><img src="images/logo-idigbio-200px.jpg" alt="IDigBio logo" /></a>
+								<a href="https://peabody.yale.edu" class="footer-image" target="_blank" title="Yale Peabody Museum"><img src="images/logo-ypm-200px.jpg" alt="YPM logo" /></a>
+								<a href="https://www.memphiszoo.org/" class="footer-image" target="_blank" title="NSF"><img src="images/logo-memphiszoo-200px.jpg" alt="Memphis Zoo logo" /></a>
+								<a href="https://www.zoomiami.org/" class="footer-image" target="_blank" title="NSF"><img src="images/logo-miamizoo-200px.jpg" alt="Zoo Miami logo" /></a>
+								<a href="https://www.nd.edu/" class="footer-image" target="_blank" title="NSF"><img src="images/logo-notredame-200px.jpg" alt="Notre Dame logo" /></a>
+								<a href="https://audubonnatureinstitute.org/" class="footer-image" target="_blank" title="NSF"><img src="images/logo-audubon-200px.jpg" alt="Audubon Nature Institute logo" /></a>
+								
+								
+								
+								<!-- <div>
+									<p class="copyright-text">&copy; 2024 Yale Peabody Museum</p>
+								</div> -->
+							</div>
 						</div>
 					</section>
 
@@ -195,6 +254,7 @@
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery-ui-1.14.1/jquery-ui.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>

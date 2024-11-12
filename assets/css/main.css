@@ -3276,6 +3276,8 @@ input, select, textarea {
 					/* box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125); */
 					box-shadow: inset 0 0 0 2px rgba(46, 49, 65, 0.125);
 					padding: 0 1.35em;
+					font-family: "Tepeno Sans", Helvetica, sans-serif;
+					font-size: 1.2em;
 				}
 
 					#header nav a[href="#menu"]:before {
@@ -3435,7 +3437,7 @@ input, select, textarea {
 		#menu h2 {
 			/* border-bottom: solid 2px rgba(255, 255, 255, 0.125); */
 			border-bottom: solid 2px rgba(46, 49, 65, 0.125);
-			padding-bottom: 1em;
+			padding-bottom: 0;
 			color: #ffffff;
 		}
 
@@ -3474,10 +3476,11 @@ input, select, textarea {
 					display: block;
 					/* font-family: Raleway, Helvetica, sans-serif; */
 					font-family: "Tepeno Sans", Helvetica, sans-serif;
-					font-size: 0.8em;
+					/* font-size: 0.8em;  */
+					font-size: 1em; 
 					font-weight: 200;
 					letter-spacing: 0.1em;
-					line-height: 1.85em;
+					line-height: 1.65em;
 					padding: 0.75em 0;
 					/* text-transform: uppercase; */
 					text-transform: none;
@@ -3486,25 +3489,29 @@ input, select, textarea {
 
 					#menu .links li:nth-child(1) a:hover {
 						/* background: #45558d; */
-						background: #f4e04d;
+						background: rgba(255,255,255,0.5);
 					}
-
 					#menu .links li:nth-child(2) a:hover {
 						/* background: #45558d; */
-						background: #f2ed6f;
+						background: #f4e04d;
 					}
 
 					#menu .links li:nth-child(3) a:hover {
 						/* background: #45558d; */
-						background: #cee397;
+						background: #f2ed6f;
 					}
 
 					#menu .links li:nth-child(4) a:hover {
 						/* background: #45558d; */
-						background: #8db1ab;
+						background: #cee397;
 					}
 
 					#menu .links li:nth-child(5) a:hover {
+						/* background: #45558d; */
+						background: #8db1ab;
+					}
+
+					#menu .links li:nth-child(6) a:hover {
 						/* background: #45558d; */
 						background: #5b867f;
 					}
@@ -3726,7 +3733,10 @@ input, select, textarea {
 				font-size: 1.6em;
 			}
 
-			
+			/* hide badge images on smaller screens - unneccesary */
+			.section-badge-image {
+				display: none;
+			}
 
 		}
 
@@ -4395,7 +4405,7 @@ input, select, textarea {
 		#footer {
 			margin-top: -2.5em;
 			padding-top: 2.5em;
-			background-position: 20% center;
+			background-position: 30% center;
 		}
 
 			#footer .inner {
@@ -4444,4 +4454,107 @@ input, select, textarea {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
 
+	}
+
+	/* JQuery UI tabs */
+
+	.ui-tabs-tab.ui-state-active {
+		background: white;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+	}
+
+	.ui-tabs-tab.ui-state-active a {
+		border-bottom: none;
+	}
+
+	.tabs-content {
+		background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+		height: 24em;
+		max-height: 24em;
+		overflow-x: hidden;
+		overflow-y: auto;
+		transform: translateY(-2px);
+		text-align: left;
+	}
+
+	.ui-tabs .ui-tabs-nav {
+		padding: 0!important;
+	}
+
+	.events-list {
+		list-style-type: none;
+	}
+
+	.events-list li {
+		padding-bottom: 1em;
+		margin-bottom: 1em;
+		border-bottom: dotted 2px rgba(46, 49, 65, 0.35);
+	}
+
+	.events-list h2 {
+		font-family: "Aero Matics", Helvetica, sans-serif;
+		font-weight: 700;
+		letter-spacing: 0.05em;
+		margin: 0;
+		/* text-transform: uppercase; */
+		text-transform: none;
+		font-size: 1.5em;
+	}
+
+	.events-list h3 {
+		font-family: "Tepeno Sans", Helvetica, sans-serif;
+		padding-left: 1em;
+		font-weight: 500;
+		font-size: 1.1em;
+	}
+
+	.events-list p {
+		padding-left: 1em;
+	}
+
+	.events-list .button {
+		/* background: #6e93cc; */
+		background: rgba(53, 56, 73, 0.95);
+		color: white!important;
+		font-size: 1.2em;
+		/* padding: 0.25em 0.5em; */
+		line-height: 2.4em;
+		height: 2.4em;
+	}
+
+	.events-list .button:hover, .events-list .button:active {
+		/* background: #6e93cc; */
+		background: rgba(53, 56, 73, 0.65);
+		/* padding: 0.25em 0.5em; */
+	}
+
+
+	/* more footer stuff */
+
+	.copyright {
+		padding-bottom: 0.2em;
+		/* border-bottom: solid 2px rgba(255, 255, 255, 0.125); */
+		/* border-bottom: solid 2px rgba(46, 49, 65, 0.125); */
+	}
+
+	.footer-image {
+		padding-right: 2em;
+		float: left;
+		border-bottom: none;
+	}
+
+	.footer-image img {
+		width: 5em;
+		height: auto;
+		cursor: pointer;
+	}
+
+	.copyright-text { 
+		margin-bottom: 0 !important;
+		line-height: 5em;
+	}
+
+	.copyright a {
+		cursor: pointer;
 	}

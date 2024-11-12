@@ -142,4 +142,8 @@
 
 			});
 
+		// Tabs for 'events' section
+
+		$( "#tabsEvents" ).tabs();
+
 })(jQuery);
