@@ -223,7 +223,8 @@ input, select, textarea {
 			display: block;
 			/* font-family: Raleway, Helvetica, sans-serif; */
 			font-family: "Museo Slab 500", Helvetica, sans-serif;
-			font-size: 0.8em;
+			/* font-size: 0.8em; */
+			font-size: 1em;
 			font-weight: 5700;
 			letter-spacing: 0.1em;
 			margin: 0 0 2em 0;
@@ -3327,11 +3328,26 @@ input, select, textarea {
 					right: 0;
 					height: inherit;
 					line-height: inherit;
+					border: none!important;
+					background: none!important
 				}
 
 					#header nav a {
 						height: inherit;
 						line-height: inherit;
+						color: white;
+						-moz-transition: color 0.35s ease-in-out;
+						-webkit-transition: color 0.35s ease-in-out;
+						-ms-transition: color 0.35s ease-in-out;
+						transition: color 0.35s ease-in-out;
+					}
+
+					#header nav a:hover, #header nav a:focus {
+						color: rgba(255,255,255,0.7)!important;
+						-moz-transition: color 0.35s ease-in-out;
+						-webkit-transition: color 0.35s ease-in-out;
+						-ms-transition: color 0.35s ease-in-out;
+						transition: color 0.35s ease-in-out;
 					}
 
 						#header nav a[href="#menu"] {
@@ -4484,6 +4500,7 @@ input, select, textarea {
 
 	.events-list {
 		list-style-type: none;
+		padding-top: 0.5em;
 	}
 
 	.events-list li {
@@ -4496,10 +4513,11 @@ input, select, textarea {
 		font-family: "Aero Matics", Helvetica, sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.05em;
-		margin: 0;
+		margin: 0 0 0.5em 0;
 		/* text-transform: uppercase; */
 		text-transform: none;
 		font-size: 1.5em;
+		line-height: 1.1em;
 	}
 
 	.events-list h3 {
@@ -4513,6 +4531,7 @@ input, select, textarea {
 		padding-left: 1em;
 	}
 
+	
 	.events-list .button {
 		/* background: #6e93cc; */
 		background: rgba(53, 56, 73, 0.95);
@@ -4522,13 +4541,33 @@ input, select, textarea {
 		line-height: 2.4em;
 		height: 2.4em;
 	}
-
+	
 	.events-list .button:hover, .events-list .button:active {
 		/* background: #6e93cc; */
 		background: rgba(53, 56, 73, 0.65);
 		/* padding: 0.25em 0.5em; */
 	}
+	
+	@media screen and (max-width: 523px) {
 
+		.events-list h3 {
+			padding-left: 0;
+			line-height: 1.2em;
+		}
+
+		.events-list p {
+			padding-left: 0;
+		}
+
+		.events-list .button {
+			font-size: 1.1em;
+			padding: 0 0.5em;
+		}
+
+		.events-list {
+			padding-left: 0;
+		}
+	}
 
 	/* more footer stuff */
 
