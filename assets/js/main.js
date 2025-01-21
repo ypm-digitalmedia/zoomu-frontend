@@ -144,6 +144,6 @@
 
 		// Tabs for 'events' section
 
-		$( "#tabsEvents" ).tabs();
+		$( "#tabsEvents" ).tabs({ active: 0 });
 
 })(jQuery);
