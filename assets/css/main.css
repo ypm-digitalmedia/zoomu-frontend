@@ -3529,7 +3529,12 @@ input, select, textarea {
 
 					#menu .links li:nth-child(6) a:hover {
 						/* background: #45558d; */
-						background: #5b867f;
+						/* background: #5b867f; */
+						background: rgba(255,255,255,0.5);
+					}
+					#menu .links li:nth-child(7) a:hover {
+						/* background: #45558d; */
+						background: rgba(255,255,255,0.5);
 					}
 
 		@media screen and (max-width: 736px) {
